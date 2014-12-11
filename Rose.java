@@ -11,7 +11,7 @@ public class Rose {
       int N = Integer.parseInt(args[0]);
       StdDraw.setXscale(-1.2, 1.2); // see coordinates in unit circle;
       StdDraw.setYscale(-1.2, 1.2);
-      int steps = 5000;
+      int steps = 5000;  // set higher for smoother, slower drawing
       double oldx = 0.0;
       double oldy = 0.0;
       for (int i = 1; i <= steps; i++) {
