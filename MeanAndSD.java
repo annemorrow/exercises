@@ -2,7 +2,8 @@
 compilation:  javac -cp .:stdlib.jar MeanAndSD.java
 execution:  java -cp .:stdlib.jar MeanAndSD [N]
 
-Reads an integer N from the command line and N double values from standard input, then prints their mean, standard deviation, and a list of outliers.
+Reads an integer N from the command line and N double values from standard input, then 
+prints their mean, standard deviation, and a list of outliers.
 
 $ java -cp .:stdlib.jar MeanAndSD 8
 6 2.2 9 13 -9 100 -12 4 
