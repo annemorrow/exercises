@@ -4,7 +4,7 @@ execution:  java -cp .:stdlib.jar Postal [zip code]
 
 Takes a zip code, finds the checksum (the sum of the digits in the zip code modulo 10), 
 puts the checksum at the end of the zip code, and draws the barcode representing all digits.  
-The bar code also includes a tall bar and the beginning an end.
+The bar code also includes a tall bar at the beginning and end.
 ****************************************************************************************/
 
 public class Postal {
