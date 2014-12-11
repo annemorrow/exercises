@@ -1,1 +1,1 @@
-To see if the changes in this file show up.
+The projects in this repository will rely on the Standard Library collection found on this page: http://introcs.cs.princeton.edu/java/stdlib/
